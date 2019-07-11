@@ -1,5 +1,9 @@
 <?php
 
+namespace Champ;
+
+use Champ\Users\Person;
+
 class Business
 {
     protected $staff;

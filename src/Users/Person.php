@@ -1,5 +1,7 @@
 <?php
 
+namespace Champ\Users;
+
 class Person 
 {
     protected $name;

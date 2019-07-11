@@ -1,8 +1,10 @@
 <?php
 
-require 'src/Business.php';
-require 'src/Person.php';
-require 'src/Staff.php';
+require 'vendor/autoload.php';
+
+use Champ\Users\Person;
+use Champ\Staff;
+use Champ\Business;
 
 $eric = new Person('Eric Marty');
 
